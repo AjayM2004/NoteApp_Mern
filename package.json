@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix BackEnd && npm run build --prefix FrontEnd && npm run build --prefix FrontEnd",
-    "start": "npm run start --prefix BackEnd"
-  },
+  "build": "npm install --prefix BackEnd && npm install --prefix FrontEnd && npm run build --prefix FrontEnd",
+  "start": "npm run start --prefix BackEnd"
+}
+,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AjayM2004/NoteApp_Mern.git"
