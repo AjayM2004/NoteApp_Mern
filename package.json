@@ -1,0 +1,22 @@
+{
+  "name": "advancedtodoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix BackEnd && npm run build --prefix FrontEnd && npm run build --prefix FrontEnd",
+    "start": "npm run start --prefix BackEnd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjayM2004/NoteApp_Mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AjayM2004/NoteApp_Mern/issues"
+  },
+  "homepage": "https://github.com/AjayM2004/NoteApp_Mern#readme"
+}
