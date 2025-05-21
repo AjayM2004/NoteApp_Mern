@@ -1,0 +1,17 @@
+//setting up backend
+step 1: cd backend
+step 2: npm init -y
+step 3: npm install express@4.18.2
+step 4: write "type":"module"
+step 5: write "scripts": {
+    "start": "node server.js"
+  }
+step 6: to have live update
+->  npm install nodemon or npm i nodemon
+ "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  }
+Note : EndPoint definition
+An EndPoint is a combination of a URL + HTTP method that lets the client 
+interact with a specific resourse

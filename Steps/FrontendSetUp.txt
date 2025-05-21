@@ -1,0 +1,10 @@
+front end set up
+step 1: npm create vite@latest .
+step 2:react -> js
+step 3:npm install
+step 4:npm run dev
+step 5:for navigation -> npm i react-router
+step 6:react daisy ui
+ npm i daisyui@4.12.24 -D
+step 7:npm i lucide-react
+step 8: npm i axios 
