@@ -11,7 +11,7 @@ function NavBar() {
         <div className="flex items-center justify-between">
           {/* App Title */}
           <h1 className="text-3xl font-bold text-primary font-mono tracking-tight">
-            DailyTask
+            DailyTaskTaker..
           </h1>
           {/* New Note Button */}
           <div className="flex items-center gap-4">
